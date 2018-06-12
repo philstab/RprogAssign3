@@ -5,9 +5,9 @@
 
 
 #test args
-state = 'VT'
-outcome = "heart attack"
-num = 3
+#state = 'VT'
+#outcome = "heart attack"
+#num = 3
 
 #determines the best (lowest 30 day mortality) hospital in a given state for an outcome
 rankhospital <- function(state, outcome, num='best') {

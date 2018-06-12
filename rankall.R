@@ -26,10 +26,10 @@ rankall <- function(outcome, num = "best") {
      if (num == 'worst'){
           i <- numeric()
           wFlag <- TRUE
-          }else if (num == 'best') {
+     }else if (num == 'best') {
           i <- 1
           wFlag <- FALSE
-          }else{
+     }else{
           i <- num
           wFlag <- FALSE
      }
